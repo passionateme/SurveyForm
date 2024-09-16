@@ -1,0 +1,69 @@
+
+  body{
+    background-color: green;
+background-repeat: no-repeat;
+  }
+
+  form{
+    border-style: double;
+    border-radius: 4%;
+    color: black;
+   background-color:white;
+    height: 830px;
+    width: 450px;
+    margin-left: 700px;
+    margin-top: 40px;
+  }
+
+  #name-input{
+  padding-left: 15px;
+
+  }
+
+  #email-input{
+    padding-left: 15px; 
+  }
+
+#age-input{
+  padding-left: 15px; 
+}
+
+
+#which-option-describe-you-best{
+  padding-left: 15px; 
+}
+
+#Would-You-Recomend-This-Survey-To-Your-Freind{
+  padding-left: 15px; 
+  padding-top: 35px;
+}
+
+#Languages-And-Frameworks-You-Know{
+  padding-left: 15px; 
+}
+
+#comment-and-suggestions{
+  padding-left: 15px; 
+ 
+}
+
+#btn{
+  padding-left: 15px; 
+  margin-top: 10px;
+}
+
+#name , #email , #age , #which-option-describe-you-best {
+  width: 400px;
+  height: 30px;
+}
+
+#comments{
+  width: 400px;
+  height: 40px;
+}
+
+#Submit-btn{
+  width: 410px;
+  height: 30px;
+  background-color: green;
+}

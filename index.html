@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel = "stylesheet" href = "survey.css"/>
+  </head>
+<body>
+
+  <main>
+  <div id = "main-wrapper">
+    <form id = "form"> 
+<div id = "name-input"><h3>Name:</h3><input type="text" placeholder="John" id = "name"></div>
+<div id = "email-input"><h3>Email:</h3><input type = "email"  placeholder="johnsmith3@gmail.com" id = "email"/></div>
+<div id = "age-input"><h3>Age:</h3><Input type = "number" placeholder = "24" id = "age"/></div>
+
+<div id = "which-option-describe-you-best">
+  <h3>Which Option Best Describe You?</h3>
+  <select id = "which-option-describe-you-best">
+  <option>Student</option>
+  <option>Job</option>
+  <option>Intern</option>
+  </select>
+  </div>
+
+ <div id = "Would-You-Recomend-This-Survey-To-Your-Freind">
+  <h3>Would You Recomend This Survey To Your Freind?</h3>
+<div><label for = "Yes"><input   type = "radio" id = "yes">Yes</input></label></div>
+<div><label for = "No"><input type = "radio"   id = "no">No</input></label></div>
+<div><label for = "Maybe"><input type = "radio" id = "maybe">Maybe</input></labe></div>
+</div>
+  
+ <div id = "Languages-And-Frameworks-You-Know">
+<h3>Languages And Frameworks You Know?</h3>
+<div><label for = "C"><input type = "checkbox" id = "C">C</input></label></div>
+<div><label for = "C+"><input type = "checkbox"  id = "C+">C+</input></label></div>
+<div><label for = "C#"><input type = "checkbox" id = "C#">C#</input></label></div>
+<div><label for = "React"><input type = "checkbox" id = "React">React</input></div>
+<div><label for = "C#" ><input type = "checkbox">Angular</input></label></div>
+<div><label for = "C#" ><input type = "checkbox">Javascript</input></label></div>
+</div>
+
+<div id = "comment-and-suggestions">
+  <h3>Comment And Suggestions:</h3>
+ <textarea id = "comments"></textarea>
+</div>
+
+<div id = "btn"><button id = "Submit-btn" onclick = "confirm('Are You Sure?')">Submit</button></div>
+
+</form>
+</div>
+</main>
+
+<footer></footer>
+
+</body>
+</html>
